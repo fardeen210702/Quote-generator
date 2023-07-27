@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500;700&family=Roboto+Slab&family=Secular+One&family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(43, 70, 70);
+}
+
+.container {
+    width: 600px;
+    border: 2px solid rgb(78, 102, 101);
+    background-color: white;
+
+    border-radius: 10px;
+}
+hr{
+    width: 90%;
+    color: rgba(61, 85, 85, 0.336);
+    
+}
+.container header{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.main_content{
+    padding: 20px 20px 1px;
+    /* border: 1px solid black; */
+    display: flex;
+    word-break: break-all;
+    text-align: center;
+}
+.main_content i:first-child{
+    margin: 3px 10px 0 0;
+}
+.main_content i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:  0 0 19px 3px;
+    
+}
+p{
+    /* border: 1px solid green; */
+    font-size:15px ;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px 19px 0 0 ;
+    font-family: 'Merienda', cursive;
+
+}
+
+.other_items > ul{
+    display: flex;
+    list-style:none;
+    gap: 1rem;
+}
+ul > li{
+    border-radius: 50%;
+    /* border: 1px solid rgb(187, 241, 255); */
+    padding: 10px;
+    background-color: rgb(187, 212, 212);
+
+}
+.other_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+   margin: 0 20px 0 0;
+   padding: 9px 10px;
+   outline: none;
+   font-size: 15px;
+   font-weight: bold;
+   border: none ;
+   border-radius: 20px;
+   background-color: rgb(187, 212, 212);
+
+
+}
+button:hover{
+  transform: scale(1.05);
+  background-color: rgb(181, 236, 238);
+}
+button:active{
+    transform: scale(1);
+}
+ul li:hover{
+  background-color: rgb(181, 236, 238);
+  transform: scale(1.11);
+}
+ul li:active{
+  transform: scale(1);
+
+}
