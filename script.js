@@ -29,6 +29,4 @@ sound_BTn.addEventListener('click',()=>{
 copy_BTn.addEventListener('click',()=>{
  navigator.clipboard.writeText(para.innerHTML)
 
-    // this is a random comment
-
 })
